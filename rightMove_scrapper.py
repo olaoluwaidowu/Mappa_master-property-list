@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import requests
+from district import postcode
 
 
 def get_data(num_properties = 1500):
