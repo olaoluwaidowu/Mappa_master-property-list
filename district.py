@@ -4,3 +4,4 @@ df = pd.read_excel("data/London postcode districts.xlsx")
 print(df["Postcode district"].values)
 postcode = df["Postcode district"].values
 borough = df.Borough.values
+df.to_csv("data/district.csv")
