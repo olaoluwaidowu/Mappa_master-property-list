@@ -25,15 +25,17 @@ def get_data(num_properties = 1500):
             search_box = driver.find_element(By.XPATH, '//input[@name="typeAheadInputField"]').send_keys(code)
             submit = driver.find_element(By.XPATH, '//*[@id="HomeDesktopLayout_searchPanel__vTqkA"]/div/div/div/button[1]').click()
             driver.find_element(By.XPATH, '//button[@id="submit"]').click()
-            address = driver.find_elements(By.CLASS_NAME, "propertyCard-wrapper")
+            property = driver.find_elements(By.CLASS_NAME, "propertyCard-wrapper")
             prop = driver.find_element(By.XPATH, '//div[@class="l-searchResult is-list"]')
             time.sleep(5)
             #prop_buttons = prop.find_elements(By.CLASS_NAME)
             print("success")
             #print(address)
-            for p in address:
-                property = p.find_element(By.CLASS_NAME, "propertyCard-address").text
-                print(property)
+            for p in property:
+                location = p.find_element(By.CLASS_NAME, "propertyCard-address").text
+                price = p.find_element(By.CLASS_NAME, "propertyCard-priceValue").text
+                desc = p.find_element(By.CLASS_NAME, "propertyCard-description").text
+                print(desc)
                 time.sleep(3)
             
             #time.sleep(10)
