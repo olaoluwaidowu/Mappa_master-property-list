@@ -1,8 +1,10 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, StaleElementReferenceException
+from selenium.webdriver.common.keys import Keys
 import requests
 from district import postcode
 import pandas as pd
@@ -40,41 +42,13 @@ def get_data(num_properties = 20):
                  # get location, price and description
                 time.sleep(10)
                 failed = True
-                """ while failed:
-                    try:
-                        time.sleep(10)
-                        location = p.find_element(By.CLASS_NAME, "propertyCard-address").text
-                        print("success 7")
-                        price = p.find_element(By.CLASS_NAME, "propertyCard-priceValue").text
-                        desc = p.find_element(By.CLASS_NAME, "propertyCard-description").text
-                    
-
-                        # get type, bedroom and toilet of property
-                    
-                        information = p.find_element(By.CLASS_NAME, "property-information").text
-
-                        information = information.split("\n")
-                        type = information[0]
-                        if len(information) < 2:
-                            bedroom = toilet = "NA"
-                        elif len(information) < 3:
-                            bedroom = information[1]
-                            toilet = "NA"
-                        else:
-                            bedroom = information[1]
-                            toilet = information[2]
-
-                        print(f"length of info {len(information)}")
-                        # get other info by click on property link
-                        p.find_element(By.CLASS_NAME, "propertyCard-address").click()
-                        failed = False
-                        print("passed")
-                    except:
-                        time.sleep(10)"""
+                
+                action = ActionChains(driver)
 
                 time.sleep(10)
-                # location = p.find_element(By.CLASS_NAME, "propertyCard-address").text
-                
+                location = p.find_element(By.CLASS_NAME, "propertyCard-address")
+
+
                 
                 print("success 7")
                 price = p.find_element(By.CLASS_NAME, "propertyCard-priceValue").text
@@ -98,7 +72,9 @@ def get_data(num_properties = 20):
 
                 print(f"length of info {len(information)}")
                 # get other info by click on property link
-                p.find_element(By.CLASS_NAME, "propertyCard-address").click()
+
+                action.key_down(Keys.CONTROL).click(location).key_up(Keys.CONTROL).perform()
+                #p.find_element(By.CLASS_NAME, "propertyCard-address").click()
 
 
                 time.sleep(10)
