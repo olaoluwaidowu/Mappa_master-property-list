@@ -1,0 +1,538 @@
+INFO - 2023-05-26 07:04:34,752 - Scraped 1 properties.
+WARNING - 2023-05-26 07:04:45,025 - Exception: Message: stale element reference: stale element not found
+  (Session info: chrome=113.0.5672.126)
+Stacktrace:
+0   chromedriver                        0x00000001083f7598 chromedriver + 4973976
+1   chromedriver                        0x00000001083ee913 chromedriver + 4938003
+2   chromedriver                        0x0000000107fabcd6 chromedriver + 470230
+3   chromedriver                        0x0000000107fb10e8 chromedriver + 491752
+4   chromedriver                        0x0000000107fb3187 chromedriver + 500103
+5   chromedriver                        0x0000000107fb328c chromedriver + 500364
+6   chromedriver                        0x0000000107feef0a chromedriver + 745226
+7   chromedriver                        0x0000000107fef591 chromedriver + 746897
+8   chromedriver                        0x0000000107fe2f76 chromedriver + 696182
+9   chromedriver                        0x00000001080139ed chromedriver + 895469
+10  chromedriver                        0x0000000107fe2e51 chromedriver + 695889
+11  chromedriver                        0x0000000108013b7e chromedriver + 895870
+12  chromedriver                        0x000000010802e856 chromedriver + 1005654
+13  chromedriver                        0x0000000108013793 chromedriver + 894867
+14  chromedriver                        0x0000000107fe121f chromedriver + 688671
+15  chromedriver                        0x0000000107fe256e chromedriver + 693614
+16  chromedriver                        0x00000001083b1bb7 chromedriver + 4688823
+17  chromedriver                        0x00000001083b6a51 chromedriver + 4708945
+18  chromedriver                        0x00000001083bd40f chromedriver + 4736015
+19  chromedriver                        0x00000001083b791a chromedriver + 4712730
+20  chromedriver                        0x000000010838a87c chromedriver + 4528252
+21  chromedriver                        0x00000001083d6f28 chromedriver + 4841256
+22  chromedriver                        0x00000001083d70a7 chromedriver + 4841639
+23  chromedriver                        0x00000001083e828f chromedriver + 4911759
+24  libsystem_pthread.dylib             0x00007ff80dbb54e1 _pthread_start + 125
+25  libsystem_pthread.dylib             0x00007ff80dbb0f6b thread_start + 15
+
+INFO - 2023-05-26 07:04:45,025 - Property in url:https://www.rightmove.co.uk/, not scraped
+INFO - 2023-05-26 07:05:03,412 - Scraped 2 properties.
+WARNING - 2023-05-26 07:05:13,610 - Exception: Message: stale element reference: stale element not found
+  (Session info: chrome=113.0.5672.126)
+Stacktrace:
+0   chromedriver                        0x00000001083f7598 chromedriver + 4973976
+1   chromedriver                        0x00000001083ee913 chromedriver + 4938003
+2   chromedriver                        0x0000000107fabcd6 chromedriver + 470230
+3   chromedriver                        0x0000000107fb10e8 chromedriver + 491752
+4   chromedriver                        0x0000000107fb3187 chromedriver + 500103
+5   chromedriver                        0x0000000107fb328c chromedriver + 500364
+6   chromedriver                        0x0000000107feef0a chromedriver + 745226
+7   chromedriver                        0x0000000107fef591 chromedriver + 746897
+8   chromedriver                        0x0000000107fe2f76 chromedriver + 696182
+9   chromedriver                        0x00000001080139ed chromedriver + 895469
+10  chromedriver                        0x0000000107fe2e51 chromedriver + 695889
+11  chromedriver                        0x0000000108013b7e chromedriver + 895870
+12  chromedriver                        0x000000010802e856 chromedriver + 1005654
+13  chromedriver                        0x0000000108013793 chromedriver + 894867
+14  chromedriver                        0x0000000107fe121f chromedriver + 688671
+15  chromedriver                        0x0000000107fe256e chromedriver + 693614
+16  chromedriver                        0x00000001083b1bb7 chromedriver + 4688823
+17  chromedriver                        0x00000001083b6a51 chromedriver + 4708945
+18  chromedriver                        0x00000001083bd40f chromedriver + 4736015
+19  chromedriver                        0x00000001083b791a chromedriver + 4712730
+20  chromedriver                        0x000000010838a87c chromedriver + 4528252
+21  chromedriver                        0x00000001083d6f28 chromedriver + 4841256
+22  chromedriver                        0x00000001083d70a7 chromedriver + 4841639
+23  chromedriver                        0x00000001083e828f chromedriver + 4911759
+24  libsystem_pthread.dylib             0x00007ff80dbb54e1 _pthread_start + 125
+25  libsystem_pthread.dylib             0x00007ff80dbb0f6b thread_start + 15
+
+INFO - 2023-05-26 07:05:13,610 - Property in url:https://www.rightmove.co.uk/, not scraped
+INFO - 2023-05-26 07:05:33,350 - Scraped 3 properties.
+WARNING - 2023-05-26 07:05:43,580 - Exception: Message: stale element reference: stale element not found
+  (Session info: chrome=113.0.5672.126)
+Stacktrace:
+0   chromedriver                        0x00000001083f7598 chromedriver + 4973976
+1   chromedriver                        0x00000001083ee913 chromedriver + 4938003
+2   chromedriver                        0x0000000107fabcd6 chromedriver + 470230
+3   chromedriver                        0x0000000107fb10e8 chromedriver + 491752
+4   chromedriver                        0x0000000107fb3187 chromedriver + 500103
+5   chromedriver                        0x0000000107fb328c chromedriver + 500364
+6   chromedriver                        0x0000000107feef0a chromedriver + 745226
+7   chromedriver                        0x0000000107fef591 chromedriver + 746897
+8   chromedriver                        0x0000000107fe2f76 chromedriver + 696182
+9   chromedriver                        0x00000001080139ed chromedriver + 895469
+10  chromedriver                        0x0000000107fe2e51 chromedriver + 695889
+11  chromedriver                        0x0000000108013b7e chromedriver + 895870
+12  chromedriver                        0x000000010802e856 chromedriver + 1005654
+13  chromedriver                        0x0000000108013793 chromedriver + 894867
+14  chromedriver                        0x0000000107fe121f chromedriver + 688671
+15  chromedriver                        0x0000000107fe256e chromedriver + 693614
+16  chromedriver                        0x00000001083b1bb7 chromedriver + 4688823
+17  chromedriver                        0x00000001083b6a51 chromedriver + 4708945
+18  chromedriver                        0x00000001083bd40f chromedriver + 4736015
+19  chromedriver                        0x00000001083b791a chromedriver + 4712730
+20  chromedriver                        0x000000010838a87c chromedriver + 4528252
+21  chromedriver                        0x00000001083d6f28 chromedriver + 4841256
+22  chromedriver                        0x00000001083d70a7 chromedriver + 4841639
+23  chromedriver                        0x00000001083e828f chromedriver + 4911759
+24  libsystem_pthread.dylib             0x00007ff80dbb54e1 _pthread_start + 125
+25  libsystem_pthread.dylib             0x00007ff80dbb0f6b thread_start + 15
+
+INFO - 2023-05-26 07:05:43,580 - Property in url:https://www.rightmove.co.uk/, not scraped
+INFO - 2023-05-26 07:06:01,026 - Scraped 4 properties.
+WARNING - 2023-05-26 07:06:11,240 - Exception: Message: stale element reference: stale element not found
+  (Session info: chrome=113.0.5672.126)
+Stacktrace:
+0   chromedriver                        0x00000001083f7598 chromedriver + 4973976
+1   chromedriver                        0x00000001083ee913 chromedriver + 4938003
+2   chromedriver                        0x0000000107fabcd6 chromedriver + 470230
+3   chromedriver                        0x0000000107fb10e8 chromedriver + 491752
+4   chromedriver                        0x0000000107fb3187 chromedriver + 500103
+5   chromedriver                        0x0000000107fb328c chromedriver + 500364
+6   chromedriver                        0x0000000107feef0a chromedriver + 745226
+7   chromedriver                        0x0000000107fef591 chromedriver + 746897
+8   chromedriver                        0x0000000107fe2f76 chromedriver + 696182
+9   chromedriver                        0x00000001080139ed chromedriver + 895469
+10  chromedriver                        0x0000000107fe2e51 chromedriver + 695889
+11  chromedriver                        0x0000000108013b7e chromedriver + 895870
+12  chromedriver                        0x000000010802e856 chromedriver + 1005654
+13  chromedriver                        0x0000000108013793 chromedriver + 894867
+14  chromedriver                        0x0000000107fe121f chromedriver + 688671
+15  chromedriver                        0x0000000107fe256e chromedriver + 693614
+16  chromedriver                        0x00000001083b1bb7 chromedriver + 4688823
+17  chromedriver                        0x00000001083b6a51 chromedriver + 4708945
+18  chromedriver                        0x00000001083bd40f chromedriver + 4736015
+19  chromedriver                        0x00000001083b791a chromedriver + 4712730
+20  chromedriver                        0x000000010838a87c chromedriver + 4528252
+21  chromedriver                        0x00000001083d6f28 chromedriver + 4841256
+22  chromedriver                        0x00000001083d70a7 chromedriver + 4841639
+23  chromedriver                        0x00000001083e828f chromedriver + 4911759
+24  libsystem_pthread.dylib             0x00007ff80dbb54e1 _pthread_start + 125
+25  libsystem_pthread.dylib             0x00007ff80dbb0f6b thread_start + 15
+
+INFO - 2023-05-26 07:06:11,241 - Property in url:https://www.rightmove.co.uk/, not scraped
+INFO - 2023-05-26 07:06:30,520 - Scraped 5 properties.
+WARNING - 2023-05-26 07:06:40,746 - Exception: Message: stale element reference: stale element not found
+  (Session info: chrome=113.0.5672.126)
+Stacktrace:
+0   chromedriver                        0x00000001083f7598 chromedriver + 4973976
+1   chromedriver                        0x00000001083ee913 chromedriver + 4938003
+2   chromedriver                        0x0000000107fabcd6 chromedriver + 470230
+3   chromedriver                        0x0000000107fb10e8 chromedriver + 491752
+4   chromedriver                        0x0000000107fb3187 chromedriver + 500103
+5   chromedriver                        0x0000000107fb328c chromedriver + 500364
+6   chromedriver                        0x0000000107feef0a chromedriver + 745226
+7   chromedriver                        0x0000000107fef591 chromedriver + 746897
+8   chromedriver                        0x0000000107fe2f76 chromedriver + 696182
+9   chromedriver                        0x00000001080139ed chromedriver + 895469
+10  chromedriver                        0x0000000107fe2e51 chromedriver + 695889
+11  chromedriver                        0x0000000108013b7e chromedriver + 895870
+12  chromedriver                        0x000000010802e856 chromedriver + 1005654
+13  chromedriver                        0x0000000108013793 chromedriver + 894867
+14  chromedriver                        0x0000000107fe121f chromedriver + 688671
+15  chromedriver                        0x0000000107fe256e chromedriver + 693614
+16  chromedriver                        0x00000001083b1bb7 chromedriver + 4688823
+17  chromedriver                        0x00000001083b6a51 chromedriver + 4708945
+18  chromedriver                        0x00000001083bd40f chromedriver + 4736015
+19  chromedriver                        0x00000001083b791a chromedriver + 4712730
+20  chromedriver                        0x000000010838a87c chromedriver + 4528252
+21  chromedriver                        0x00000001083d6f28 chromedriver + 4841256
+22  chromedriver                        0x00000001083d70a7 chromedriver + 4841639
+23  chromedriver                        0x00000001083e828f chromedriver + 4911759
+24  libsystem_pthread.dylib             0x00007ff80dbb54e1 _pthread_start + 125
+25  libsystem_pthread.dylib             0x00007ff80dbb0f6b thread_start + 15
+
+INFO - 2023-05-26 07:06:40,746 - Property in url:https://www.rightmove.co.uk/, not scraped
+INFO - 2023-05-26 07:08:12,960 - Scraped 1 properties.
+INFO - 2023-05-26 07:15:59,961 - Scraped 1 properties.
+INFO - 2023-05-26 07:18:35,516 - Scraped 1 properties.
+INFO - 2023-05-26 07:22:41,708 - Scraped 1 properties.
+INFO - 2023-05-26 07:22:41,803 - Scraped 2 properties.
+INFO - 2023-05-26 07:22:41,886 - Scraped 3 properties.
+INFO - 2023-05-26 07:22:41,974 - Scraped 4 properties.
+INFO - 2023-05-26 07:22:42,056 - Scraped 5 properties.
+INFO - 2023-05-26 07:22:42,139 - Scraped 6 properties.
+INFO - 2023-05-26 07:22:42,222 - Scraped 7 properties.
+INFO - 2023-05-26 07:22:42,305 - Scraped 8 properties.
+INFO - 2023-05-26 07:22:42,390 - Scraped 9 properties.
+INFO - 2023-05-26 07:22:42,473 - Scraped 10 properties.
+INFO - 2023-05-26 07:22:42,558 - Scraped 11 properties.
+INFO - 2023-05-26 07:22:42,648 - Scraped 12 properties.
+INFO - 2023-05-26 07:22:42,733 - Scraped 13 properties.
+INFO - 2023-05-26 07:22:42,819 - Scraped 14 properties.
+INFO - 2023-05-26 07:22:42,904 - Scraped 15 properties.
+INFO - 2023-05-26 07:22:42,992 - Scraped 16 properties.
+INFO - 2023-05-26 07:22:43,076 - Scraped 17 properties.
+INFO - 2023-05-26 07:22:43,159 - Scraped 18 properties.
+INFO - 2023-05-26 07:22:43,242 - Scraped 19 properties.
+INFO - 2023-05-26 07:22:43,329 - Scraped 20 properties.
+INFO - 2023-05-26 07:22:43,411 - Scraped 21 properties.
+INFO - 2023-05-26 07:22:43,516 - Scraped 22 properties.
+INFO - 2023-05-26 07:22:43,597 - Scraped 23 properties.
+INFO - 2023-05-26 07:22:43,681 - Scraped 24 properties.
+INFO - 2023-05-26 07:22:43,764 - Scraped 25 properties.
+INFO - 2023-05-26 07:22:54,192 - Scraped 26 properties.
+INFO - 2023-05-26 07:22:54,282 - Scraped 27 properties.
+INFO - 2023-05-26 07:22:54,363 - Scraped 28 properties.
+INFO - 2023-05-26 07:22:54,446 - Scraped 29 properties.
+INFO - 2023-05-26 07:22:54,531 - Scraped 30 properties.
+INFO - 2023-05-26 07:22:54,654 - Scraped 31 properties.
+INFO - 2023-05-26 07:22:54,737 - Scraped 32 properties.
+INFO - 2023-05-26 07:22:54,825 - Scraped 33 properties.
+INFO - 2023-05-26 07:22:54,907 - Scraped 34 properties.
+INFO - 2023-05-26 07:22:54,990 - Scraped 35 properties.
+INFO - 2023-05-26 07:22:55,075 - Scraped 36 properties.
+INFO - 2023-05-26 07:22:55,186 - Scraped 37 properties.
+INFO - 2023-05-26 07:22:55,272 - Scraped 38 properties.
+INFO - 2023-05-26 07:22:55,353 - Scraped 39 properties.
+INFO - 2023-05-26 07:22:55,435 - Scraped 40 properties.
+INFO - 2023-05-26 07:22:55,516 - Scraped 41 properties.
+INFO - 2023-05-26 07:22:55,600 - Scraped 42 properties.
+INFO - 2023-05-26 07:22:55,682 - Scraped 43 properties.
+INFO - 2023-05-26 07:22:55,765 - Scraped 44 properties.
+INFO - 2023-05-26 07:22:55,851 - Scraped 45 properties.
+INFO - 2023-05-26 07:22:55,933 - Scraped 46 properties.
+INFO - 2023-05-26 07:22:56,016 - Scraped 47 properties.
+INFO - 2023-05-26 07:22:56,098 - Scraped 48 properties.
+INFO - 2023-05-26 07:22:56,181 - Scraped 49 properties.
+INFO - 2023-05-26 07:22:56,263 - Scraped 50 properties.
+INFO - 2023-05-26 07:23:06,552 - Scraped 51 properties.
+INFO - 2023-05-26 07:23:06,639 - Scraped 52 properties.
+INFO - 2023-05-26 07:23:06,749 - Scraped 53 properties.
+INFO - 2023-05-26 07:23:06,835 - Scraped 54 properties.
+INFO - 2023-05-26 07:23:06,916 - Scraped 55 properties.
+INFO - 2023-05-26 07:23:06,999 - Scraped 56 properties.
+INFO - 2023-05-26 07:23:07,085 - Scraped 57 properties.
+INFO - 2023-05-26 07:23:07,174 - Scraped 58 properties.
+INFO - 2023-05-26 07:23:07,282 - Scraped 59 properties.
+INFO - 2023-05-26 07:23:07,367 - Scraped 60 properties.
+INFO - 2023-05-26 07:23:07,448 - Scraped 61 properties.
+INFO - 2023-05-26 07:23:07,531 - Scraped 62 properties.
+INFO - 2023-05-26 07:23:07,613 - Scraped 63 properties.
+INFO - 2023-05-26 07:23:07,698 - Scraped 64 properties.
+INFO - 2023-05-26 07:23:07,780 - Scraped 65 properties.
+INFO - 2023-05-26 07:23:07,864 - Scraped 66 properties.
+INFO - 2023-05-26 07:23:07,948 - Scraped 67 properties.
+INFO - 2023-05-26 07:23:08,030 - Scraped 68 properties.
+INFO - 2023-05-26 07:23:08,145 - Scraped 69 properties.
+INFO - 2023-05-26 07:23:08,229 - Scraped 70 properties.
+INFO - 2023-05-26 07:23:08,313 - Scraped 71 properties.
+INFO - 2023-05-26 07:23:08,396 - Scraped 72 properties.
+INFO - 2023-05-26 07:23:08,478 - Scraped 73 properties.
+INFO - 2023-05-26 07:23:08,557 - Scraped 74 properties.
+INFO - 2023-05-26 07:23:08,639 - Scraped 75 properties.
+INFO - 2023-05-26 07:23:18,907 - Scraped 76 properties.
+INFO - 2023-05-26 07:23:18,989 - Scraped 77 properties.
+INFO - 2023-05-26 07:23:19,070 - Scraped 78 properties.
+INFO - 2023-05-26 07:23:19,153 - Scraped 79 properties.
+INFO - 2023-05-26 07:23:19,275 - Scraped 80 properties.
+INFO - 2023-05-26 07:23:19,358 - Scraped 81 properties.
+INFO - 2023-05-26 07:23:19,440 - Scraped 82 properties.
+INFO - 2023-05-26 07:23:19,522 - Scraped 83 properties.
+INFO - 2023-05-26 07:23:19,602 - Scraped 84 properties.
+INFO - 2023-05-26 07:23:19,684 - Scraped 85 properties.
+INFO - 2023-05-26 07:23:19,812 - Scraped 86 properties.
+INFO - 2023-05-26 07:23:19,896 - Scraped 87 properties.
+INFO - 2023-05-26 07:23:19,976 - Scraped 88 properties.
+INFO - 2023-05-26 07:23:20,058 - Scraped 89 properties.
+INFO - 2023-05-26 07:23:20,137 - Scraped 90 properties.
+INFO - 2023-05-26 07:23:20,221 - Scraped 91 properties.
+INFO - 2023-05-26 07:23:20,302 - Scraped 92 properties.
+INFO - 2023-05-26 07:23:20,384 - Scraped 93 properties.
+INFO - 2023-05-26 07:23:20,467 - Scraped 94 properties.
+INFO - 2023-05-26 07:23:20,551 - Scraped 95 properties.
+INFO - 2023-05-26 07:23:20,634 - Scraped 96 properties.
+INFO - 2023-05-26 07:23:20,714 - Scraped 97 properties.
+INFO - 2023-05-26 07:23:20,830 - Scraped 98 properties.
+INFO - 2023-05-26 07:23:20,919 - Scraped 99 properties.
+INFO - 2023-05-26 07:23:21,002 - Scraped 100 properties.
+INFO - 2023-05-26 07:23:31,267 - Scraped 101 properties.
+INFO - 2023-05-26 07:23:31,353 - Scraped 102 properties.
+INFO - 2023-05-26 07:23:31,436 - Scraped 103 properties.
+INFO - 2023-05-26 07:23:31,517 - Scraped 104 properties.
+INFO - 2023-05-26 07:23:31,600 - Scraped 105 properties.
+INFO - 2023-05-26 07:23:31,716 - Scraped 106 properties.
+INFO - 2023-05-26 07:23:31,798 - Scraped 107 properties.
+INFO - 2023-05-26 07:23:31,882 - Scraped 108 properties.
+INFO - 2023-05-26 07:23:31,965 - Scraped 109 properties.
+INFO - 2023-05-26 07:23:32,045 - Scraped 110 properties.
+INFO - 2023-05-26 07:23:32,126 - Scraped 111 properties.
+INFO - 2023-05-26 07:23:32,207 - Scraped 112 properties.
+INFO - 2023-05-26 07:23:32,290 - Scraped 113 properties.
+INFO - 2023-05-26 07:23:32,374 - Scraped 114 properties.
+INFO - 2023-05-26 07:23:32,455 - Scraped 115 properties.
+INFO - 2023-05-26 07:23:32,572 - Scraped 116 properties.
+INFO - 2023-05-26 07:23:32,656 - Scraped 117 properties.
+INFO - 2023-05-26 07:23:32,737 - Scraped 118 properties.
+INFO - 2023-05-26 07:23:32,819 - Scraped 119 properties.
+INFO - 2023-05-26 07:23:32,902 - Scraped 120 properties.
+INFO - 2023-05-26 07:23:32,986 - Scraped 121 properties.
+INFO - 2023-05-26 07:23:33,067 - Scraped 122 properties.
+INFO - 2023-05-26 07:23:33,150 - Scraped 123 properties.
+INFO - 2023-05-26 07:23:33,233 - Scraped 124 properties.
+INFO - 2023-05-26 07:23:33,316 - Scraped 125 properties.
+INFO - 2023-05-26 07:23:43,605 - Scraped 126 properties.
+INFO - 2023-05-26 07:23:43,691 - Scraped 127 properties.
+INFO - 2023-05-26 07:23:43,811 - Scraped 128 properties.
+INFO - 2023-05-26 07:23:43,890 - Scraped 129 properties.
+INFO - 2023-05-26 07:23:43,971 - Scraped 130 properties.
+INFO - 2023-05-26 07:23:44,050 - Scraped 131 properties.
+INFO - 2023-05-26 07:23:44,132 - Scraped 132 properties.
+INFO - 2023-05-26 07:23:44,235 - Scraped 133 properties.
+INFO - 2023-05-26 07:23:44,330 - Scraped 134 properties.
+INFO - 2023-05-26 07:23:44,412 - Scraped 135 properties.
+INFO - 2023-05-26 07:23:44,492 - Scraped 136 properties.
+INFO - 2023-05-26 07:23:44,574 - Scraped 137 properties.
+INFO - 2023-05-26 07:23:44,657 - Scraped 138 properties.
+INFO - 2023-05-26 07:23:44,737 - Scraped 139 properties.
+INFO - 2023-05-26 07:23:44,819 - Scraped 140 properties.
+INFO - 2023-05-26 07:23:44,903 - Scraped 141 properties.
+INFO - 2023-05-26 07:23:44,993 - Scraped 142 properties.
+INFO - 2023-05-26 07:23:45,116 - Scraped 143 properties.
+INFO - 2023-05-26 07:23:45,241 - Scraped 144 properties.
+INFO - 2023-05-26 07:23:45,326 - Scraped 145 properties.
+INFO - 2023-05-26 07:23:45,404 - Scraped 146 properties.
+INFO - 2023-05-26 07:23:45,483 - Scraped 147 properties.
+INFO - 2023-05-26 07:23:45,561 - Scraped 148 properties.
+INFO - 2023-05-26 07:23:45,637 - Scraped 149 properties.
+INFO - 2023-05-26 07:23:45,716 - Scraped 150 properties.
+INFO - 2023-05-26 07:23:56,009 - Scraped 151 properties.
+INFO - 2023-05-26 07:23:56,094 - Scraped 152 properties.
+INFO - 2023-05-26 07:23:56,176 - Scraped 153 properties.
+INFO - 2023-05-26 07:23:56,260 - Scraped 154 properties.
+INFO - 2023-05-26 07:23:56,342 - Scraped 155 properties.
+INFO - 2023-05-26 07:23:56,424 - Scraped 156 properties.
+INFO - 2023-05-26 07:23:56,550 - Scraped 157 properties.
+INFO - 2023-05-26 07:23:56,636 - Scraped 158 properties.
+INFO - 2023-05-26 07:23:56,719 - Scraped 159 properties.
+INFO - 2023-05-26 07:23:56,802 - Scraped 160 properties.
+INFO - 2023-05-26 07:23:56,884 - Scraped 161 properties.
+INFO - 2023-05-26 07:23:56,968 - Scraped 162 properties.
+INFO - 2023-05-26 07:23:57,050 - Scraped 163 properties.
+INFO - 2023-05-26 07:23:57,133 - Scraped 164 properties.
+INFO - 2023-05-26 07:23:57,215 - Scraped 165 properties.
+INFO - 2023-05-26 07:23:57,298 - Scraped 166 properties.
+INFO - 2023-05-26 07:23:57,379 - Scraped 167 properties.
+INFO - 2023-05-26 07:23:57,500 - Scraped 168 properties.
+INFO - 2023-05-26 07:23:57,588 - Scraped 169 properties.
+INFO - 2023-05-26 07:23:57,674 - Scraped 170 properties.
+INFO - 2023-05-26 07:23:57,755 - Scraped 171 properties.
+INFO - 2023-05-26 07:23:57,838 - Scraped 172 properties.
+INFO - 2023-05-26 07:23:57,920 - Scraped 173 properties.
+INFO - 2023-05-26 07:23:58,002 - Scraped 174 properties.
+INFO - 2023-05-26 07:23:58,086 - Scraped 175 properties.
+INFO - 2023-05-26 07:24:08,357 - Scraped 176 properties.
+INFO - 2023-05-26 07:24:08,440 - Scraped 177 properties.
+INFO - 2023-05-26 07:24:08,520 - Scraped 178 properties.
+INFO - 2023-05-26 07:24:08,600 - Scraped 179 properties.
+INFO - 2023-05-26 07:24:08,678 - Scraped 180 properties.
+INFO - 2023-05-26 07:24:08,758 - Scraped 181 properties.
+INFO - 2023-05-26 07:24:08,837 - Scraped 182 properties.
+INFO - 2023-05-26 07:24:08,964 - Scraped 183 properties.
+INFO - 2023-05-26 07:24:09,049 - Scraped 184 properties.
+INFO - 2023-05-26 07:24:09,128 - Scraped 185 properties.
+INFO - 2023-05-26 07:24:09,210 - Scraped 186 properties.
+INFO - 2023-05-26 07:24:09,291 - Scraped 187 properties.
+INFO - 2023-05-26 07:24:09,370 - Scraped 188 properties.
+INFO - 2023-05-26 07:24:09,449 - Scraped 189 properties.
+INFO - 2023-05-26 07:24:09,528 - Scraped 190 properties.
+INFO - 2023-05-26 07:24:09,610 - Scraped 191 properties.
+INFO - 2023-05-26 07:24:09,701 - Scraped 192 properties.
+INFO - 2023-05-26 07:24:09,784 - Scraped 193 properties.
+INFO - 2023-05-26 07:24:09,912 - Scraped 194 properties.
+INFO - 2023-05-26 07:24:09,994 - Scraped 195 properties.
+INFO - 2023-05-26 07:24:10,075 - Scraped 196 properties.
+INFO - 2023-05-26 07:24:10,154 - Scraped 197 properties.
+INFO - 2023-05-26 07:24:10,232 - Scraped 198 properties.
+INFO - 2023-05-26 07:24:10,346 - Scraped 199 properties.
+INFO - 2023-05-26 07:24:10,425 - Scraped 200 properties.
+INFO - 2023-05-26 07:24:20,662 - Scraped 201 properties.
+INFO - 2023-05-26 07:24:20,748 - Scraped 202 properties.
+INFO - 2023-05-26 07:24:20,829 - Scraped 203 properties.
+INFO - 2023-05-26 07:24:20,909 - Scraped 204 properties.
+INFO - 2023-05-26 07:24:20,992 - Scraped 205 properties.
+INFO - 2023-05-26 07:24:21,077 - Scraped 206 properties.
+INFO - 2023-05-26 07:24:21,160 - Scraped 207 properties.
+INFO - 2023-05-26 07:24:21,282 - Scraped 208 properties.
+INFO - 2023-05-26 07:24:21,370 - Scraped 209 properties.
+INFO - 2023-05-26 07:24:21,454 - Scraped 210 properties.
+INFO - 2023-05-26 07:24:21,539 - Scraped 211 properties.
+INFO - 2023-05-26 07:24:21,623 - Scraped 212 properties.
+INFO - 2023-05-26 07:24:21,707 - Scraped 213 properties.
+INFO - 2023-05-26 07:24:21,793 - Scraped 214 properties.
+INFO - 2023-05-26 07:24:21,880 - Scraped 215 properties.
+INFO - 2023-05-26 07:24:21,966 - Scraped 216 properties.
+INFO - 2023-05-26 07:24:22,054 - Scraped 217 properties.
+INFO - 2023-05-26 07:24:22,137 - Scraped 218 properties.
+INFO - 2023-05-26 07:24:22,224 - Scraped 219 properties.
+INFO - 2023-05-26 07:24:22,323 - Scraped 220 properties.
+INFO - 2023-05-26 07:24:22,416 - Scraped 221 properties.
+INFO - 2023-05-26 07:24:22,506 - Scraped 222 properties.
+INFO - 2023-05-26 07:24:22,737 - Scraped 223 properties.
+INFO - 2023-05-26 07:24:22,844 - Scraped 224 properties.
+INFO - 2023-05-26 07:24:22,947 - Scraped 225 properties.
+INFO - 2023-05-26 07:24:33,365 - Scraped 226 properties.
+INFO - 2023-05-26 07:24:33,452 - Scraped 227 properties.
+INFO - 2023-05-26 07:24:33,538 - Scraped 228 properties.
+INFO - 2023-05-26 07:24:33,622 - Scraped 229 properties.
+INFO - 2023-05-26 07:24:33,708 - Scraped 230 properties.
+INFO - 2023-05-26 07:24:33,793 - Scraped 231 properties.
+INFO - 2023-05-26 07:24:33,881 - Scraped 232 properties.
+INFO - 2023-05-26 07:24:33,965 - Scraped 233 properties.
+INFO - 2023-05-26 07:24:34,051 - Scraped 234 properties.
+INFO - 2023-05-26 07:24:34,139 - Scraped 235 properties.
+INFO - 2023-05-26 07:24:34,222 - Scraped 236 properties.
+INFO - 2023-05-26 07:24:34,306 - Scraped 237 properties.
+INFO - 2023-05-26 07:24:34,390 - Scraped 238 properties.
+INFO - 2023-05-26 07:24:34,476 - Scraped 239 properties.
+INFO - 2023-05-26 07:24:34,561 - Scraped 240 properties.
+INFO - 2023-05-26 07:24:34,644 - Scraped 241 properties.
+INFO - 2023-05-26 07:24:34,728 - Scraped 242 properties.
+INFO - 2023-05-26 07:24:34,817 - Scraped 243 properties.
+INFO - 2023-05-26 07:24:34,900 - Scraped 244 properties.
+INFO - 2023-05-26 07:24:34,985 - Scraped 245 properties.
+INFO - 2023-05-26 07:24:35,083 - Scraped 246 properties.
+INFO - 2023-05-26 07:24:35,168 - Scraped 247 properties.
+INFO - 2023-05-26 07:24:35,253 - Scraped 248 properties.
+INFO - 2023-05-26 07:24:35,337 - Scraped 249 properties.
+INFO - 2023-05-26 07:24:35,426 - Scraped 250 properties.
+INFO - 2023-05-26 07:24:45,788 - Scraped 251 properties.
+INFO - 2023-05-26 07:24:45,892 - Scraped 252 properties.
+INFO - 2023-05-26 07:24:45,995 - Scraped 253 properties.
+INFO - 2023-05-26 07:24:46,119 - Scraped 254 properties.
+INFO - 2023-05-26 07:24:46,224 - Scraped 255 properties.
+INFO - 2023-05-26 07:24:46,324 - Scraped 256 properties.
+INFO - 2023-05-26 07:24:46,428 - Scraped 257 properties.
+INFO - 2023-05-26 07:24:46,532 - Scraped 258 properties.
+INFO - 2023-05-26 07:24:46,636 - Scraped 259 properties.
+INFO - 2023-05-26 07:24:46,733 - Scraped 260 properties.
+INFO - 2023-05-26 07:24:46,832 - Scraped 261 properties.
+INFO - 2023-05-26 07:24:46,934 - Scraped 262 properties.
+INFO - 2023-05-26 07:24:47,038 - Scraped 263 properties.
+INFO - 2023-05-26 07:24:47,146 - Scraped 264 properties.
+INFO - 2023-05-26 07:24:47,250 - Scraped 265 properties.
+INFO - 2023-05-26 07:24:47,354 - Scraped 266 properties.
+INFO - 2023-05-26 07:24:47,454 - Scraped 267 properties.
+INFO - 2023-05-26 07:24:47,553 - Scraped 268 properties.
+INFO - 2023-05-26 07:24:47,664 - Scraped 269 properties.
+INFO - 2023-05-26 07:24:47,891 - Scraped 270 properties.
+INFO - 2023-05-26 07:24:47,994 - Scraped 271 properties.
+INFO - 2023-05-26 07:24:48,094 - Scraped 272 properties.
+INFO - 2023-05-26 07:24:48,200 - Scraped 273 properties.
+INFO - 2023-05-26 07:24:48,300 - Scraped 274 properties.
+INFO - 2023-05-26 07:24:48,400 - Scraped 275 properties.
+INFO - 2023-05-26 07:24:58,887 - Scraped 276 properties.
+INFO - 2023-05-26 07:24:58,987 - Scraped 277 properties.
+INFO - 2023-05-26 07:24:59,084 - Scraped 278 properties.
+INFO - 2023-05-26 07:24:59,181 - Scraped 279 properties.
+INFO - 2023-05-26 07:24:59,286 - Scraped 280 properties.
+INFO - 2023-05-26 07:24:59,385 - Scraped 281 properties.
+INFO - 2023-05-26 07:24:59,488 - Scraped 282 properties.
+INFO - 2023-05-26 07:24:59,665 - Scraped 283 properties.
+INFO - 2023-05-26 07:24:59,766 - Scraped 284 properties.
+INFO - 2023-05-26 07:24:59,861 - Scraped 285 properties.
+INFO - 2023-05-26 07:24:59,962 - Scraped 286 properties.
+INFO - 2023-05-26 07:25:00,063 - Scraped 287 properties.
+INFO - 2023-05-26 07:25:00,169 - Scraped 288 properties.
+INFO - 2023-05-26 07:25:00,276 - Scraped 289 properties.
+INFO - 2023-05-26 07:25:00,387 - Scraped 290 properties.
+INFO - 2023-05-26 07:25:00,496 - Scraped 291 properties.
+INFO - 2023-05-26 07:25:00,599 - Scraped 292 properties.
+INFO - 2023-05-26 07:25:00,700 - Scraped 293 properties.
+INFO - 2023-05-26 07:25:00,805 - Scraped 294 properties.
+INFO - 2023-05-26 07:25:00,913 - Scraped 295 properties.
+INFO - 2023-05-26 07:25:01,019 - Scraped 296 properties.
+INFO - 2023-05-26 07:25:01,193 - Scraped 297 properties.
+INFO - 2023-05-26 07:25:01,312 - Scraped 298 properties.
+INFO - 2023-05-26 07:25:01,416 - Scraped 299 properties.
+INFO - 2023-05-26 07:25:01,517 - Scraped 300 properties.
+INFO - 2023-05-26 07:25:11,835 - Scraped 301 properties.
+INFO - 2023-05-26 07:25:11,944 - Scraped 302 properties.
+INFO - 2023-05-26 07:25:12,055 - Scraped 303 properties.
+INFO - 2023-05-26 07:25:12,171 - Scraped 304 properties.
+INFO - 2023-05-26 07:25:12,283 - Scraped 305 properties.
+INFO - 2023-05-26 07:25:12,388 - Scraped 306 properties.
+INFO - 2023-05-26 07:25:12,490 - Scraped 307 properties.
+INFO - 2023-05-26 07:25:12,591 - Scraped 308 properties.
+INFO - 2023-05-26 07:25:12,788 - Scraped 309 properties.
+INFO - 2023-05-26 07:25:12,913 - Scraped 310 properties.
+INFO - 2023-05-26 07:25:13,026 - Scraped 311 properties.
+INFO - 2023-05-26 07:25:13,141 - Scraped 312 properties.
+INFO - 2023-05-26 07:25:13,251 - Scraped 313 properties.
+INFO - 2023-05-26 07:25:13,361 - Scraped 314 properties.
+INFO - 2023-05-26 07:25:13,468 - Scraped 315 properties.
+INFO - 2023-05-26 07:25:13,574 - Scraped 316 properties.
+INFO - 2023-05-26 07:25:13,680 - Scraped 317 properties.
+INFO - 2023-05-26 07:25:13,787 - Scraped 318 properties.
+INFO - 2023-05-26 07:25:13,992 - Scraped 319 properties.
+INFO - 2023-05-26 07:25:14,101 - Scraped 320 properties.
+INFO - 2023-05-26 07:25:14,269 - Scraped 321 properties.
+INFO - 2023-05-26 07:25:14,397 - Scraped 322 properties.
+INFO - 2023-05-26 07:25:14,505 - Scraped 323 properties.
+INFO - 2023-05-26 07:25:14,621 - Scraped 324 properties.
+INFO - 2023-05-26 07:25:14,729 - Scraped 325 properties.
+INFO - 2023-05-26 07:25:25,060 - Scraped 326 properties.
+INFO - 2023-05-26 07:25:25,176 - Scraped 327 properties.
+INFO - 2023-05-26 07:25:25,413 - Scraped 328 properties.
+INFO - 2023-05-26 07:25:25,521 - Scraped 329 properties.
+INFO - 2023-05-26 07:25:25,625 - Scraped 330 properties.
+INFO - 2023-05-26 07:25:25,730 - Scraped 331 properties.
+INFO - 2023-05-26 07:25:25,832 - Scraped 332 properties.
+INFO - 2023-05-26 07:25:25,936 - Scraped 333 properties.
+INFO - 2023-05-26 07:25:26,115 - Scraped 334 properties.
+INFO - 2023-05-26 07:25:26,221 - Scraped 335 properties.
+INFO - 2023-05-26 07:25:26,331 - Scraped 336 properties.
+INFO - 2023-05-26 07:25:26,433 - Scraped 337 properties.
+INFO - 2023-05-26 07:25:26,530 - Scraped 338 properties.
+INFO - 2023-05-26 07:25:26,632 - Scraped 339 properties.
+INFO - 2023-05-26 07:25:26,734 - Scraped 340 properties.
+INFO - 2023-05-26 07:25:26,832 - Scraped 341 properties.
+INFO - 2023-05-26 07:25:26,935 - Scraped 342 properties.
+INFO - 2023-05-26 07:25:27,035 - Scraped 343 properties.
+INFO - 2023-05-26 07:25:27,136 - Scraped 344 properties.
+INFO - 2023-05-26 07:25:27,248 - Scraped 345 properties.
+INFO - 2023-05-26 07:25:27,346 - Scraped 346 properties.
+INFO - 2023-05-26 07:25:27,478 - Scraped 347 properties.
+INFO - 2023-05-26 07:25:27,624 - Scraped 348 properties.
+INFO - 2023-05-26 07:25:27,726 - Scraped 349 properties.
+INFO - 2023-05-26 07:25:27,835 - Scraped 350 properties.
+INFO - 2023-05-26 07:25:38,112 - Scraped 351 properties.
+INFO - 2023-05-26 07:25:38,202 - Scraped 352 properties.
+INFO - 2023-05-26 07:25:38,289 - Scraped 353 properties.
+INFO - 2023-05-26 07:25:38,375 - Scraped 354 properties.
+INFO - 2023-05-26 07:25:38,462 - Scraped 355 properties.
+INFO - 2023-05-26 07:25:38,546 - Scraped 356 properties.
+INFO - 2023-05-26 07:25:38,631 - Scraped 357 properties.
+INFO - 2023-05-26 07:25:38,776 - Scraped 358 properties.
+INFO - 2023-05-26 07:25:38,862 - Scraped 359 properties.
+INFO - 2023-05-26 07:25:38,950 - Scraped 360 properties.
+INFO - 2023-05-26 07:25:39,034 - Scraped 361 properties.
+INFO - 2023-05-26 07:25:39,120 - Scraped 362 properties.
+INFO - 2023-05-26 07:25:39,206 - Scraped 363 properties.
+INFO - 2023-05-26 07:25:39,291 - Scraped 364 properties.
+INFO - 2023-05-26 07:25:39,377 - Scraped 365 properties.
+INFO - 2023-05-26 07:25:39,461 - Scraped 366 properties.
+INFO - 2023-05-26 07:25:39,547 - Scraped 367 properties.
+INFO - 2023-05-26 07:25:39,636 - Scraped 368 properties.
+INFO - 2023-05-26 07:25:39,725 - Scraped 369 properties.
+INFO - 2023-05-26 07:25:39,811 - Scraped 370 properties.
+INFO - 2023-05-26 07:25:39,903 - Scraped 371 properties.
+INFO - 2023-05-26 07:25:39,999 - Scraped 372 properties.
+INFO - 2023-05-26 07:25:40,093 - Scraped 373 properties.
+INFO - 2023-05-26 07:25:40,182 - Scraped 374 properties.
+INFO - 2023-05-26 07:25:40,269 - Scraped 375 properties.

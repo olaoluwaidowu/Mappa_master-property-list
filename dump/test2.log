@@ -1,0 +1,29 @@
+INFO - 2023-05-25 14:49:43,295 - Chromedriver is already installed.
+INFO - 2023-05-25 14:50:41,600 - Chromedriver is already installed.
+INFO - 2023-05-25 14:50:41,601 - Started scrapping for Sale
+INFO - 2023-05-25 15:16:45,298 - Chromedriver is already installed.
+INFO - 2023-05-25 15:16:45,300 - Started scrapping for Sale
+WARNING - 2023-05-25 15:17:42,635 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64713712/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-25 15:21:04,741 - Chromedriver is already installed.
+INFO - 2023-05-25 15:21:04,742 - Started scrapping for Sale
+WARNING - 2023-05-25 15:22:03,777 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64713712/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 15:22:50,987 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64713712/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-25 15:23:57,204 - Chromedriver is already installed.
+INFO - 2023-05-25 15:23:57,205 - Started scrapping for Sale
+WARNING - 2023-05-25 15:25:07,263 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64713712/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 15:26:14,047 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/61374143/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 15:26:48,397 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64710426/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 15:27:29,111 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/57102457/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 15:28:05,211 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64709795/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-25 15:28:08,384 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-25 15:28:08,384 - Zoopla scrapping runtime: 252 seconds
+INFO - 2023-05-25 15:35:15,375 - Chromedriver is already installed.
+INFO - 2023-05-25 15:35:15,376 - Started scrapping for Rent
+WARNING - 2023-05-25 15:36:14,513 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64713712/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 15:37:23,641 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/61374143/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 15:38:08,613 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64710426/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 15:38:45,688 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/57102457/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 15:39:26,293 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64709795/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 15:41:41,842 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/45149465/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-25 15:42:14,775 - Success! zoopla scraped data created with 11 properties
+INFO - 2023-05-25 15:42:14,776 - Zoopla scrapping runtime: 420 seconds

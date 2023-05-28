@@ -1,0 +1,139 @@
+INFO - 2023-05-24 00:49:48,557 - Chromedriver is already installed.
+INFO - 2023-05-24 00:49:48,558 - Started scrapping for Rent
+INFO - 2023-05-24 00:58:50,729 - Chromedriver is already installed.
+INFO - 2023-05-24 00:58:50,730 - Started scrapping for Rent
+WARNING - 2023-05-24 00:59:58,800 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 01:10:24,130 - Chromedriver is already installed.
+INFO - 2023-05-24 01:10:24,131 - Started scrapping for Rent
+WARNING - 2023-05-24 01:11:38,674 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:12:23,848 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 01:15:59,692 - Chromedriver is already installed.
+INFO - 2023-05-24 01:15:59,693 - Started scrapping for Rent
+WARNING - 2023-05-24 01:17:06,806 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:17:46,867 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:18:34,100 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:19:16,456 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64687061/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 01:23:15,247 - Chromedriver is already installed.
+INFO - 2023-05-24 01:23:15,248 - Started scrapping for Rent
+INFO - 2023-05-24 01:28:11,165 - Chromedriver is already installed.
+INFO - 2023-05-24 01:28:11,166 - Started scrapping for Rent
+WARNING - 2023-05-24 01:29:08,138 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:29:58,184 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:30:41,456 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:31:30,604 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64687061/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 01:33:30,118 - Chromedriver is already installed.
+INFO - 2023-05-24 01:33:30,119 - Started scrapping for Rent
+WARNING - 2023-05-24 01:34:26,226 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:35:18,414 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:36:07,624 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 01:37:02,880 - Chromedriver is already installed.
+INFO - 2023-05-24 01:37:02,881 - Started scrapping for Rent
+WARNING - 2023-05-24 01:37:55,389 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:38:32,207 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:39:10,998 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 01:39:14,182 - Success! zoopla scraped data created with 3 properties
+INFO - 2023-05-24 01:47:33,114 - Chromedriver is already installed.
+INFO - 2023-05-24 01:47:33,115 - Started scrapping for Rent
+WARNING - 2023-05-24 01:48:22,395 - bedroom success | bathroom Failed detected! at https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:48:32,458 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:48:58,767 - bedroom success | bathroom Failed detected! at https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:49:08,788 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:49:27,680 - bedroom success | bathroom Failed detected! at https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:49:37,689 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 01:49:40,883 - Success! zoopla scraped data created with 3 properties
+INFO - 2023-05-24 01:55:13,762 - Chromedriver is already installed.
+INFO - 2023-05-24 01:55:13,763 - Started scrapping for Rent
+WARNING - 2023-05-24 01:55:41,023 - bedroom success | bathroom Failed detected! at https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:55:51,112 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:56:09,203 - bedroom success | bathroom Failed detected! at https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:56:19,361 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:56:35,627 - bedroom success | bathroom Failed detected! at https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 01:56:45,660 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 01:56:48,852 - Success! zoopla scraped data created with 3 properties
+INFO - 2023-05-24 02:02:34,879 - Chromedriver is already installed.
+INFO - 2023-05-24 02:02:34,880 - Started scrapping for Rent
+WARNING - 2023-05-24 02:03:34,428 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 02:04:07,754 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 02:04:38,550 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 02:05:24,538 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64687061/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 02:06:26,411 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-24 09:41:05,524 - Chromedriver is already installed.
+INFO - 2023-05-24 09:41:05,525 - Started scrapping for Rent
+WARNING - 2023-05-24 09:41:59,914 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64698579/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 09:42:42,927 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 09:43:20,333 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 09:43:53,418 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 09:44:34,411 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64687061/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 09:45:42,049 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-24 10:05:16,094 - Chromedriver is already installed.
+INFO - 2023-05-24 10:05:16,095 - Started scrapping for Rent
+WARNING - 2023-05-24 10:06:05,037 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64699704/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 10:07:09,478 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 10:09:03,523 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 10:09:41,601 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64687061/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 10:10:53,085 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-24 11:00:21,368 - Chromedriver is already installed.
+INFO - 2023-05-24 11:00:21,370 - Started scrapping for Rent
+WARNING - 2023-05-24 11:01:47,543 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64699704/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 11:03:01,132 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64696559/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 11:03:33,263 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/64695482/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+WARNING - 2023-05-24 11:04:04,900 - Tenure section class switched at:  https://www.zoopla.co.uk/for-sale/details/61293762/?search_identifier=6167d7504f016678a175117ba650c16664ace1ced4a1e70b71785898f228234a
+INFO - 2023-05-24 11:10:14,093 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-24 11:15:14,436 - Chromedriver is already installed.
+INFO - 2023-05-24 11:15:14,437 - Started scrapping for Sale
+INFO - 2023-05-24 11:44:32,462 - Chromedriver is already installed.
+INFO - 2023-05-24 11:44:32,464 - Started scrapping for Sale
+WARNING - 2023-05-24 11:49:40,294 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/61089139/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-24 11:50:49,190 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/64661379/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-24 11:51:16,274 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/64656574/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-24 11:51:19,459 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-24 12:21:46,013 - Chromedriver is already installed.
+INFO - 2023-05-24 12:21:46,014 - Started scrapping for Sale
+WARNING - 2023-05-24 12:31:32,229 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/61089139/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-24 12:32:43,855 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/64661379/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-24 12:33:08,011 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/64656574/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-24 12:33:11,187 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-24 13:28:09,345 - Chromedriver is already installed.
+INFO - 2023-05-24 13:28:09,346 - Started scrapping for Sale
+WARNING - 2023-05-24 13:33:25,794 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/61089139/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-24 13:34:25,875 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/64661379/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-24 13:35:02,281 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/64656574/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-24 13:35:05,530 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-24 14:23:10,181 - Chromedriver is already installed.
+INFO - 2023-05-24 14:23:10,182 - Started scrapping for Sale
+WARNING - 2023-05-24 14:27:30,285 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/61089139/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-24 14:28:30,595 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/64661379/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-24 14:29:01,798 - Tax band section switched at:  https://www.zoopla.co.uk/to-rent/details/64656574/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-24 14:29:04,981 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-24 15:12:55,139 - Chromedriver is already installed.
+INFO - 2023-05-24 15:12:55,141 - Started scrapping for Sale
+INFO - 2023-05-24 15:15:07,581 - Success! zoopla scraped data created with 2 properties
+INFO - 2023-05-24 15:15:07,582 - Zoopla scrapping runtime: 133 hour(s)
+INFO - 2023-05-25 13:08:51,787 - Chromedriver is already installed.
+INFO - 2023-05-25 13:08:51,788 - Started scrapping for Sale
+INFO - 2023-05-25 13:18:23,938 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-25 13:18:23,938 - Zoopla scrapping runtime: 573 seconds
+INFO - 2023-05-25 13:28:00,716 - Chromedriver is already installed.
+INFO - 2023-05-25 13:28:00,718 - Started scrapping for Sale
+WARNING - 2023-05-25 13:28:43,058 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/61374143/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 13:29:16,116 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64710426/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 13:29:52,950 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/57102457/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 13:30:34,417 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64709795/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-25 13:31:35,433 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-25 13:31:35,434 - Zoopla scrapping runtime: 216 seconds
+INFO - 2023-05-25 13:43:52,886 - Chromedriver is already installed.
+INFO - 2023-05-25 13:43:52,888 - Started scrapping for Sale
+WARNING - 2023-05-25 13:44:50,602 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/61374143/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 13:45:38,194 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64710426/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 13:46:31,065 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/57102457/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 13:47:16,387 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64709795/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-25 13:48:25,899 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-25 13:48:25,899 - Zoopla scrapping runtime: 274 seconds
+INFO - 2023-05-25 13:50:44,478 - Chromedriver is already installed.
+INFO - 2023-05-25 13:50:44,479 - Started scrapping for Sale
+WARNING - 2023-05-25 13:51:30,936 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/61374143/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 13:52:07,914 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64710426/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 13:52:41,139 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/57102457/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+WARNING - 2023-05-25 13:53:18,061 - Bedroom path switched at:  https://www.zoopla.co.uk/to-rent/details/64709795/?search_identifier=f3efbef8498f9c3a638e07c97bdfe70b8740411fc41e746c3d37dd34f85f9642
+INFO - 2023-05-25 13:54:25,528 - Success! zoopla scraped data created with 6 properties
+INFO - 2023-05-25 13:54:25,529 - Zoopla scrapping runtime: 222 seconds
