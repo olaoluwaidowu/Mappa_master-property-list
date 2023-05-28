@@ -1,16 +1,22 @@
-from asyncio.windows_events import NULL
 from calendar import c
 from cmath import nan
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 #from selenium.webdriver.chrome.options import Options
-from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, StaleElementReferenceException
+from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, StaleElementReferenceException, WebDriverException
 from selenium.webdriver.common.keys import Keys
 import requests
-from district import postcode
+from district import postcode, borough
 import pandas as pd
 import chromedriver_autoinstaller
+import logging
+from datetime import date
+
+
+logging.basicConfig(filename='./logs/zoopla.log', filemode='a', format='%(levelname)s - %(asctime)s - %(message)s',level=logging.INFO)
+
+start = time.time()
  
 chromedriver_autoinstaller.install() 
 
@@ -37,169 +43,172 @@ def create_session(driver,url,options):
 
     driver.get(url)
 
-def get_data(num_properties = 20,verbose=True):
+
+def scrape_urls(p, properties, code, town, Transaction_type, connected=True):
+    counter = 0
+    
+    
+             
+    # get property details
+    result_id = p.get_attribute("id")       
+    location = p.find_element(By.TAG_NAME, 'h3').text
+    price = p.find_element(By.XPATH, '//p[@data-testid="listing-price"]').text
+    property_type = p.find_element(By.XPATH, f'//*[@id="{result_id}"]/div[1]/div/div/div/div[2]/div/a/div/div[3]/h2').text
+    
+    
+    print("result id: ",result_id)
+    try:
+        bedroom = p.find_element(By.XPATH, f'//*[@id="{result_id}"]/div[1]/div/div/div/div[2]/div/a/div/div[2]/ul/li[1]/span[2]').text
+    except:
+        bedroom = None
+
+    try:
+        bathroom = p.find_element(By.XPATH, f'//*[@id="{result_id}"]/div[1]/div/div/div/div[2]/div/a/div/div[2]/ul/li[2]/span[2]').text
+    except:
+        bathroom = None
+
+    try:
+        agent_logo = p.find_element(By.XPATH, f'//*[@id="{result_id}"]/div[1]/div/div/div/div[3]/a/img')
+        agent = agent_logo.get_attribute("alt")
+    except:
+        agent = None
+
+    
+    
+
+    print("address: ", location)
+    print(price)
+    print("agent: ", agent)
+    print("bed: ", bedroom)
+    print("bath: ", bathroom)
+    print(property_type)
+    
+    a = p.find_element(By.TAG_NAME, "a")
+    listing_url = a.get_attribute("href")
+    print(listing_url)
+    print("p id : ", result_id)
+
+
+
+    
+    properties.append({"Result_id" : result_id,
+    "Transaction_type" : Transaction_type,
+    "Bedroom" : bedroom,
+    "Bathroom" : bathroom,
+    "Property_type" : property_type,
+    "Price" : price,
+    "Location" : location,
+    "Agent" : agent,
+    "Listing_url" : listing_url,
+    "postcode" : code,
+    "Borough" : town,
+    "Date" : date.today()
+    })
+
+        
+            
+            
+
+        
+        
+
+    return properties
+
+
+def get_data(verbose=True):
     #options = Options()
     options.add_argument("start-maximized")
     #driver = webdriver.Chrome('/usr/local/bin/chromedriver', options=options)
 
     # scrape zoopa
-    #url = "https://www.zoopla.co.uk/"
-
+    fails = 0
     properties = []
-    for code in postcode:
-        while len(properties) < (num_properties+1):
+
+    # scrape by postcode
+    for code, town in zip(postcode, borough):
+        
+        print("\nstarting new postcode")
+        
+        #  ourter loop to handle transaction type i.e sale or rent
+        for i in range(2):
             
-            print("\nstarting new postcode")
+            for j in range(20):   # range to cover number of pages
             
-            # loop to handle transaction type i.e sale or rent
-            for i in range(2):
-                for j in range(13):
-                
-                    print("\nstarting new property type")
-                
-                #time.sleep(10)
-                
-                    if i == 0:
-                        Transaction_type = "Sale"
-                        if j < 1:
-                            url = f"https://www.zoopla.co.uk/for-sale/property/{code}/?q={code}&search_source=home"
-                        else:
-                            url = f"https://www.zoopla.co.uk/for-sale/property/{code}/?q={code}&search_source=home&pn={j+1}"
+                print("\nstarting new page")
+            
+            
+                # generate urls based on transaction type, postcode and page number
+                if i == 0:
+                    logging.info("Started scrapping for Sale")
+                    Transaction_type = "Sale"
+                    if j < 1:
+                        url = f"https://www.zoopla.co.uk/for-sale/property/{code}/?q={code}&search_source=home"
                     else:
-                        Transaction_type = "Rent"
-                        if j < 1:
-                            url = f"https://www.zoopla.co.uk/to-rent/property/{code}/?price_frequency=per_month&q={code}&search_source=home"
-                        else:
-                            url = f"https://www.zoopla.co.uk/to-rent/property/{code}/?price_frequency=per_month&q={code}&search_source=home&pn={j+1}"
-                    # Setting the driver path and requesting a page 
-                    driver = webdriver.Chrome(options=options) 
- 
-                    # Changing the property of the navigator value for webdriver to undefined 
-                    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})") 
+                        url = f"https://www.zoopla.co.uk/for-sale/property/{code}/?q={code}&search_source=home&pn={j+1}"
+                else:
+                    logging.info("Started scrapping for Rent")
+                    Transaction_type = "Rent"
+                    if j < 1:
+                        url = f"https://www.zoopla.co.uk/to-rent/property/{code}/?price_frequency=per_month&q={code}&search_source=home"
+                    else:
+                        url = f"https://www.zoopla.co.uk/to-rent/property/{code}/?price_frequency=per_month&q={code}&search_source=home&pn={j+1}"   #{j+1}
 
+                # Setting the driver path and requesting a page 
+                driver = webdriver.Chrome(options=options)
+
+                # Changing the property of the navigator value for webdriver to undefined 
+                driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
+                # launch browser to specified url
+                try:
                     driver.get(url)
-                    time.sleep(10)
-                    try:
-                        driver.find_element(By.XPATH,'//*[@id="radix-:r0:"]/main/div[1]/button').click() #clicking to the X.
-                        print(' x out worked')
-                    except NoSuchElementException:
-                        print(' x out failed')
-                        pass
+                except:
+                    print("Page url not valid")
+                    break
+                try:
+                    time.sleep(3)
+                    web_element = driver.find_element(By.XPATH, '//*[@id="main-content"]/div/div[4]/div[2]/section/div[2]/div[2]/h2').text
+                    if web_element == "No results found":
+                        print("page ends")
+                        break
+                except:
+                    pass
+                time.sleep(3)
+                try:
+                    # get webelement of properties on page
                     property = driver.find_elements(By.XPATH, '//div[@class="f0xnzq2"]')
+                    #print("Prop: ",property)
+                except:
+                    print("Property not reachable")
+                    break
 
-                    # collect list of properties urls
-                    
-                    property_urls = [p.find_element(By.TAG_NAME, "a").get_attribute("href") for p in property]
+                # collect list of properties urls on page
+                property_urls = [p.find_element(By.TAG_NAME, "a").get_attribute("href") for p in property]
 
-                    print(property_urls)
-
-                    driver.close()
-
-                    for url in property_urls:
-                        
-                        try:
-                            # Setting the driver path and requesting a page 
-                            driver = webdriver.Chrome(options=options) 
-
-                            # Changing the property of the navigator value for webdriver to undefined 
-                            driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-
-                            driver.sleep(3)
-
-                            driver.get(url)
-
-                            driver.implicitly_wait(10)
-                            print("session created")
-
-                            #time.sleep(2)cleae
-
-                            price = driver.find_element(By.XPATH, '//p[@data-testid="price"]').text
-                            
-                            location  = driver.find_element(By.XPATH, '//address[@data-testid="address-label"]').text
-
-                            property_type = driver.find_element(By.XPATH, '//address[@data-testid="title"]').text
-                            
-
-                            try:
-                                agent = driver.find_element(By.XPATH, '//p[@class="_164l98j3 _1ftx2fq6"]').text 
-                            
-                            except:
-                                agent = None
-
-                            try:
-                                desc = driver.find_element(By.XPATH, '//div[@class="_1qfzbjk3"]').text
-                            except:
-                                desc = None
-
-                           
-
-
-                            """try:
-                                bedroom = driver.find_element(By.XPATH, '//*[@id="main-content"]/div[2]/div/div[1]/div[1]/div/div[2]/div[5]/div[1]/div[1]/div[1]/div').text    # _1ljm00u6r _1ljm00u0
-                            except NoSuchElementException:
-                                bedroom = driver.find_element(By.XPATH, '//*[@id="main-content"]/div[2]/div/div[1]/div[1]/div/div/div[6]/div[1]/div[1]/div[1]/div').text
-                                print("bedroom 2.0 success")
-                            finally:
-                                bedroom = None"""
-                            
-                            try:
-                                bedroom  = driver.find_element(By.XPATH, '//div[@class="_1ljm00u6r _1ljm00u0"]').text  
-                                bathroom = driver.find_element(By.XPATH, '//div[@class="_1qfzbjk3"]').text
-                            except:
-                                bedroom = bathroom = None
-
-                            
-                            try:
-
-
-                                tenure = driver.find_element(By.XPATH, '//*[@id="main-content"]/div[2]/div/div[1]/div[1]/div/div/div[6]/div[1]/div[2]/div/div[1]/div[2]').text
-
-                                tax_band = driver.find_element(By.XPATH, '//*[@id="main-content"]/div[2]/div/div[1]/div[1]/div/div/div[6]/div[1]/div[2]/div/div[2]/div[2]').text
-
-                            except NoSuchElementException:
-                                print("tenure option 2")
-
-                                tenure = driver.find_element(By.XPATH, '//*[@id="main-content"]/div[2]/div/div[1]/div[1]/div/div[2]/div[5]/div[1]/div[2]/div/div[1]/div[2]').text
-
-                                tax_band = driver.find_element(By.XPATH, '//*[@id="main-content"]/div[2]/div/div[1]/div[1]/div/div[2]/div[5]/div[1]/div[2]/div/div[2]/div[2]').text
-
-                                print(f"No tenure element found for:  {url}")
-                            finally:
-                                tenure = None
-                                tax_band = None
-
-
-                            print(f"Property tenure : {tenure}     ")
-
-                            
-
-                            print(price)
-                            print(location)
-
-                            print(f"Tax Band : {tax_band}")
-
-
-
-
-
-                        
-                            driver.close()
-
-                            properties.append({"Transaction_type" : Transaction_type,
-                            "Bedroom" : bedroom,
-                            "Bathrooms" : bathroom,
-                            "Description" : desc,
-                            "Property_type" : property_type,
-                            "Price" : price,
-                            "Location" : location,
-                            "Agent" : agent,
-                            "Listing_url" : url})
-                            
-                        except:
-                            print(f"Property in url:{url}, not found")
-
-    return pd.DataFrame(properties).reset_index()
 
                 
-df = get_data()
+
+
+                # scrape each properties in different browsing sessions
+                for p in property:
+                    time.sleep(2)
+                    try:
+
+                        properties = scrape_urls(p, properties, code, town, Transaction_type)
+                        print(f"Scraped {len(properties)}")
+                    except:
+                        print("P elements not scrapped")
+                        continue
+                if verbose:
+                    print(f"Scraped {len(properties)} properties.")
+                driver.close()
+
+    return pd.DataFrame(properties).reset_index(), len(properties)
+
+
+# collect data and output csv file
+df, quantity = get_data()
 df.to_csv("data/zoopla.csv")
+logging.info("Success! zoopla scraped data created with %d properties" % quantity)
+end = time.time()
+logging.info("Zoopla scrapping runtime: %d seconds" % (end-start))
