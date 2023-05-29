@@ -14,7 +14,7 @@ import logging
 from datetime import date
 
 
-logging.basicConfig(filename='./logs/zoopla.log', filemode='a', format='%(levelname)s - %(asctime)s - %(message)s',level=logging.INFO)
+logging.basicConfig(filename='./logs/zoopla_batch345678.log', filemode='a', format='%(levelname)s - %(asctime)s - %(message)s',level=logging.INFO)
 
 start = time.time()
  
